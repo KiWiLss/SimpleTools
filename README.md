@@ -1,6 +1,6 @@
 # SimpleTools
 
-#1,日志使用
+#1,日志使用<br>
         1,在application中可以设置是否打印日志
           L.setIsLog(false);
           设置打印的TAG
@@ -13,5 +13,5 @@
           L.json("");
           L.xml("");
           4,将任意类型的数据打印成String
-            L.ii("");
-            L.ee("");
+           L.ii("");
+           L.ee("");
