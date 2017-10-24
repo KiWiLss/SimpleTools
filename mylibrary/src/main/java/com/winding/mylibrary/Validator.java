@@ -43,11 +43,14 @@ public class Validator {
 
     public static final String matchString = "^[1-9]\\d{7}((0[1-9])||(1[0-2]))((0[1-9])||(1\\d)||(2\\d)||(3[0-1]))\\d{3}$";
     public static final String matchString2 = "^[1-9]\\d{5}[1-9]\\d{3}((0[1-9])||(1[0-2]))((0[1-9])||(1\\d)||(2\\d)||(3[0-1]))\\d{3}([0-9]||X||x)$";
-
+    /**
+     * 校验身份证
+     *
+     * @param idCard
+     * @return 校验通过返回true，否则返回false
+     */
     public static boolean isIDCard(String idCard) {
-
         boolean flag= Pattern.matches(matchString, idCard)||Pattern.matches(matchString2, idCard);
-
         return flag;
     }
 
