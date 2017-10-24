@@ -29,4 +29,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.+'
     testCompile 'junit:junit:4.12'
     compile 'com.orhanobut:logger:2.1.1'
+    compile 'com.alibaba:fastjson:1.2.39'
 }
