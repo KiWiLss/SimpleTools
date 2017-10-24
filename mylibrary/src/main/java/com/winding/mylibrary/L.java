@@ -7,11 +7,15 @@ import com.orhanobut.logger.Logger;
  * 日志相关工具类
  */
 public class L {
-    public static final String TAG = "MMM";
+    public static String TAG = "MMM";
     public static boolean isLog=true;
 
     public static void setIsLog(boolean isShow){
         isLog=isShow;
+    }
+
+    public static void setTag(String tag){
+        TAG=tag;
     }
 
     public static void d(Object o){
