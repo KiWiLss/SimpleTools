@@ -1,6 +1,15 @@
 # SimpleTools
+# 引入
+1,repositories {
+			...
+			maven { url 'https://www.jitpack.io' }
+		}
+2,
+dependencies {
+	        compile 'com.github.KiWiLss:SimpleTools:0.0.1'
+	}
 
-#1,日志使用<br>
+# 1,日志使用<br>
         1,在application中可以设置是否打印日志<br>
           L.setIsLog(false);<br>
           设置打印的TAG<br>
