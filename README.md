@@ -4,7 +4,7 @@
 			...
 			maven { url 'https://www.jitpack.io' }
 		}
-		\b
+		\n
 2,
 dependencies {
 	        compile 'com.github.KiWiLss:SimpleTools:0.0.1'
